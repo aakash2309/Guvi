@@ -1,0 +1,4 @@
+import  math as m
+a=int(input("enter the number:"))
+result=m.sqrt(a)
+print("sqaure root of a number is:",result)
