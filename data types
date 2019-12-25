@@ -1,0 +1,6 @@
+a=int(input("enter the number:\t"))
+b=str(input("enter the number:\t"))
+c=float(input("enter the number:\t"))
+print(type(a))
+print(type(b))
+print(type(c))
