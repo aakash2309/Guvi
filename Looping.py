@@ -4,7 +4,7 @@ n=100
 while i<=n:
   if i%2==0:
     print(i)
-  i=i+2
+  i=i+1
 
  #ODD NUMBERS FROM 1 TO 100:
 i=1
@@ -35,5 +35,45 @@ i=1
 while i<=n:
    print(alpha[i])
    i=i+1
+  
+#SUM OF ALL EVEN NUMBERS FROM 1 TO N:
+n=int(input("enter any num:"))
+i=1
+s=0
+while i<=n:
+  if i%2==0:
+    s=s+i
+  i=i+1
+print(s)
+
+
+#SUM OF ALL ODD NUMBERS FROM 1 TO 100:
+n=int(input("enter any num:"))
+i=1
+s=0
+while i<=n:
+  if i%2!=0:
+    s=s+i
+  i=i+1
+print(s)
+
+#SUM OF ALL NATURAL NUMBERS FROM 1 TO N:
+n=int(input("enter any num:"))
+i=1
+s=0
+while i<=n:
+    s=s+i
+    i=i+1
+print(s)
+
+
+
+
+
+
+
+
+
+
 
   
